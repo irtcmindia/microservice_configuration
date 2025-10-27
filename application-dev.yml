@@ -1,10 +1,10 @@
 spring:
   application:
-    name: Config-Dev
+    name: CONFIGDEV
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8085/eureka/
+      defaultZone: http://localhost:8588/eureka/
     register-with-eureka: true
     fetch-registry: true
   instance:
